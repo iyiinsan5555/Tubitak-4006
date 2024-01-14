@@ -5,11 +5,14 @@
     --Second_Grop_Color: rgba(172, 212, 255, 0.25);
 }
 
-main {
+body{
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin-left: 3%;
     font-size: 20px;
     font-weight: 600;
+}
+
+main {
+    margin-left: 3%;
 }
 
 
