@@ -1,0 +1,57 @@
+:root {
+    --Background_Color: #ffffff;
+    --Text_Color: #000000;
+    --Main_Group_Color: rgb(208,215,255,0.5);
+    --Second_Grop_Color: rgba(172, 212, 255, 0.25);
+}
+
+main {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.Konu_Grubu {
+    width: 90vw;
+    height: max-content;
+    background-image: linear-gradient(150deg, rgb(208,215,255,0), rgb(208,215,255,0.75));
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    place-content: center;
+    place-self: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    border-radius: 20px;
+    border-color: #eeeeee;
+    border-style: solid;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Konu_Grubu p {
+    background-color: var(--Second_Grop_Color);
+    padding: 10px 10px 10px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 7.5px;
+    box-shadow: var(--Second_Grop_Color) 0px 0px 9px;
+    text-align: center;
+}
+
+.Block {
+    display: block;
+}
+
+.Anket_Sorusu {
+    font-style: italic;
+}
+
+.List {
+    list-style: decimal;
+}
