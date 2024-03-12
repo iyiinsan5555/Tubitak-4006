@@ -78,3 +78,79 @@ main {
 .Show {
     opacity: 1;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.Bir_Satırlık_Boşluk {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin-top: 5vh;
+}
+
+li {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Örnekler {
+    padding: 0px 0px 0px 5px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-left: 1vw;
+    border-radius: 5px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    list-style: disc;
+}
+
+.Örnekler li {
+    margin-left: 2.5vw;
+}
+
+.Bölüm_Çizgisi {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: block;
+    height: 0.75vh;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: grey 0px 0px 9px;
+}
+
+
+.Liste_2x5 {
+    height: 40vh;
+    width: 60vw;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    column-gap: 1vw;
+    row-gap: 1vh;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.Liste_2x5 div {
+    border-color: #000000;
+    border-style: hidden;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    font-size: 30px;
+}
+
+.Center_Div {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    align-content: center;
+    align-self: center;
+}
