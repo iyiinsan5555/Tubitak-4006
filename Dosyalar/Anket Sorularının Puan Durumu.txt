@@ -1,0 +1,163 @@
+
+Ortalama olarak günde kaç saat ders çalışıyorsunuz? 
+
+1 saatten az: 0
+1-2 saat arası: 1
+2-3 saat arası: 2
+3-4 saat arası: 3
+4-5 saat arası: 4
+5 saatten fazla: 5
+
+Ders çalışma sürecinizde hangi zaman dilimlerinde daha verimli olduğunuzu düşünüyorsunuz? -- Nötr
+
+Ders çalışma sırasında erteleme yapıyorum.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+Ders çalışma alışkanlıklarınızı geliştirmek için hangi adımları atıyorsunuz?  (Birden fazla seçenek seçilebilir) -- Nötr
+
+Ders çalışmak için planlama yapmak ve zaman yönetimi benim daha başarılı olmamı sağlıyor. -- Nötr
+
+Ders notlarını düzenleme ve özet çıkarma benim daha başarılı olmamı sağlıyor. -- Nötr
+
+Ders çalışırken çevrim içi kaynaklar kullanmam benim daha başarılı olmamı sağlıyor. -- Nötr
+
+Hedef belirleme ve motivasyon teknikleri kullanma benim daha başarılı olmamı sağlıyor. -- Nötr
+
+Hangi derslere daha fazla zaman ayırıyorsunuz? (Birden fazla seçenek seçilebilir) -- Nötr
+
+Ders çalışma sürecinizde zaman yönetimi becerilerinizi nasıl değerlendiriyorsunuz?
+[1(en kötü)-10(en iyi) arasında bir rakam veriniz]
+
+1: 0
+2: 0
+3: 1
+4: 1
+5: 2
+6: 2
+7: 3
+8: 3
+9: 4
+10: 4
+
+
+Ders kitabından okuyarak çalışırım. -- Nötr
+
+Dijital kaynakları kullanarak (çevrim içi dersler, videolar, uygulamalar vb.) ders çalışırım. -- Nötr
+
+Grup çalışması ile ders çalışırım. -- Nötr
+
+Soru çözerek ve pratik yaparak ders çalışırım. 
+
+Hiçbir zaman: 0
+Nadiren: 1
+Bazen: 2
+Çoğunlukla: 3
+Her zaman: 4
+
+
+Ders notlarını tekrar ederek çalışırım. -- Nötr
+
+Kütüphanede çalışmaya daha iyi odaklanabildiğimi düşünüyorum. -- Nötr
+
+Evde sessiz bir odada çalışmaya daha iyi odaklanabildiğimi düşünüyorum. -- Nötr
+
+Kafe veya kahve dükkanı gibi halka açık yerlerde çalışmaya daha iyi odaklanabildiğimi düşünüyorum. -- Nötr
+
+Doğada veya açık havada çalışmaya daha iyi odaklanabildiğimi düşünüyorum. -- Nötr
+
+Uygun ders materyallerini bulmada zorluklar yaşarım. -- Nötr
+
+Sınav veya proje gibi yoğun zamanlarda zaman yönetiminde zorluklar yaşarım.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Dersler arasındaki dengeyi sağlarken zorluklar yaşarım.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Dikkat dağınıklığı ders çalışma sürecimi olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Zaman yönetiminde yaşadığım sorunlar ders çalışmamı olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Teknolojik cihazlar (bilgisayar, tablet, TV, telefon vb.) ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 4
+Bazen: 2
+Çoğunlukla: 0
+Her zaman: 0
+
+Uyku düzenimin bozuk olması veya yorgun olmam ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+Ders materyallerinin ilgi çekiciliğinin eksik olması ders çalışırken dikkatimi dağıtır. -- Nötr
+
+Evdeki veya çevredeki diğer insanlar ders çalışırken dikkatimi dağıtır. -- Nötr
+
+Dışarıdaki gürültü ders çalışırken dikkatimi dağıtır. -- Nötr
+
+Cep telefonu ve sosyal medya ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 4
+Bazen: 2
+Çoğunlukla: 0
+Her zaman: 0
+
+
+Stres ve kaygı ders çalışma sürecimi olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Erteleme ders çalışma sürecimi olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Motivasyon eksikliği ders çalışma sürecimi olumsuz etkiler. -- Nötr
+
+
+

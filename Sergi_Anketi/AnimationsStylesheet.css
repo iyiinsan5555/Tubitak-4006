@@ -1,0 +1,67 @@
+.Soru_Bölümü {
+    animation: Transition-In-Soru_Bölümü 0.5s;
+}
+
+.Input-Div {
+    animation: Transition-In-Input-Div 0.75s;
+}
+
+.Soru {
+    animation: Transition-In-Soru 0.75s;
+}
+
+.Sonuc_Bölümü {
+    animation: Transition-In-Sonuc_Bölümü 0.25s;
+}
+
+
+@keyframes Transition-In-Soru_Bölümü {
+    from {
+        opacity: 0;
+        transform: translate(-100%,-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@keyframes Transition-In-Input-Div {
+    from {
+        opacity: 0;
+        transform: rotateX(-90deg) translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0deg) translateY(0);
+    }
+}
+
+
+@keyframes Transition-In-Soru {
+    from {
+        opacity: 0;
+        transform: translateX(25%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes Transition-In-Sonuc_Bölümü {
+    from {
+        opacity: 0;
+        transform: translate(-50%,-30%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-50%,-50%);
+    }
+}

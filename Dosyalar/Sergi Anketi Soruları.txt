@@ -1,0 +1,121 @@
+
+Ortalama olarak günde kaç saat ders çalışıyorsunuz? 
+
+1 saatten az: 0
+1-2 saat arası: 1
+2-3 saat arası: 2
+3-4 saat arası: 3
+4-5 saat arası: 4
+5 saatten fazla: 5
+
+
+Ders çalışma sırasında erteleme yapıyorum.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Ders çalışma sürecinizde zaman yönetimi becerilerinizi nasıl değerlendiriyorsunuz?
+[1(en kötü)-10(en iyi) arasında bir rakam veriniz]
+
+1: 0
+2: 0
+3: 1
+4: 1
+5: 2
+6: 2
+7: 3
+8: 3
+9: 4
+10: 4
+
+
+
+Soru çözerek ve pratik yaparak ders çalışırım. 
+
+Hiçbir zaman: 0
+Nadiren: 1
+Bazen: 2
+Çoğunlukla: 3
+Her zaman: 4
+
+
+Sınav veya proje gibi yoğun zamanlarda zaman yönetiminde zorluklar yaşarım.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Dersler arasındaki dengeyi sağlarken zorluklar yaşarım.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Dikkat dağınıklığı ders çalışma sürecimi olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Zaman yönetiminde yaşadığım sorunlar ders çalışmamı olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Teknolojik cihazlar (bilgisayar, tablet, TV, telefon vb.) ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 4
+Bazen: 2
+Çoğunlukla: 0
+Her zaman: 0
+
+Uyku düzenimin bozuk olması veya yorgun olmam ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+Cep telefonu ve sosyal medya ders çalışırken dikkatimi dağıtır.
+
+Hiçbir zaman: 4
+Nadiren: 4
+Bazen: 2
+Çoğunlukla: 0
+Her zaman: 0
+
+
+
+Erteleme ders çalışma sürecimi olumsuz etkiler.
+
+Hiçbir zaman: 4
+Nadiren: 3
+Bazen: 2
+Çoğunlukla: 1
+Her zaman: 0
+
+
+
+
+Max Puan: 45
+Mix Puan: 0

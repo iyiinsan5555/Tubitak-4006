@@ -7,6 +7,8 @@ body {
     font-optical-sizing: auto;
 
     margin: 0 0 0 0;
+
+    background-color: #eee;
 }
 
 
@@ -46,4 +48,74 @@ body {
     display: block;
 
     background-color: aliceblue;
+}
+
+
+.Sonuc_Bölümü {
+    width: 75vw;
+    height: auto;
+    background-color: rgb(153, 153, 153);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 15px 15px 15px 15px;
+
+    /* Add border and shadow*/
+}
+
+
+.Sonuc {
+    font-size: 22.5px;
+    font-weight: 600;
+    font-style: italic;
+
+    margin: 0;
+}
+
+
+.Siralama {
+
+}
+
+
+.Siralama_Sifati {
+
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: 10px 5px 5px 5px;
+
+}
+
+
+.Selected {
+
+    color: red;
+    font-size: 25px;
+
+    transition: all 1.5s;
+
+}
+
+
+.Anket_Bilgisi {
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.Anket_Bilgisi p {
+
+    margin-left: 15px;
+
+    display: inline-block;
+
 }
