@@ -16,6 +16,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     </head>
     <body>
+
+        <audio id="Finished_Audio">
+            <source src="../finished_audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
         <main>
 
             <!-- Aldığımız puanı gösterecek
@@ -56,6 +62,25 @@
 </html>
 
 <script defer src="../Manager.js"></script>
+<script src="../confetti.js"></script>
+<script>
+     const start = () => {
+    setTimeout(function(){
+        confetti.start();
+    }, 10); // 1000 = 1 second
+};
+
+// to stop
+const stop = () => {
+    setTimeout(function(){
+        confetti.stop();
+    }, 2000);
+}
+
+
+start();
+stop();
+</script>
 
 
 
