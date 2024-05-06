@@ -171,6 +171,18 @@ body {
         top: 7.5%;
         font-size: 28px;
     }
+    #Mezuniyet_Sapkasi {
+        opacity: 0;
+    }
+    #Cetvel {
+        opacity: 0;
+    }
+    #Ucan_Cetvel_Kalem {
+        opacity: 0;
+    }
+    #Acik_Kitap_1 {
+        opacity: 0;
+    }
 }
 
 
