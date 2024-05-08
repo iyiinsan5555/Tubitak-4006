@@ -1,12 +1,12 @@
 
-Ortalama olarak günde kaç saat ders çalışıyorsunuz? 
+Haftada ortalama kaç saat ders çalışıyorsunuz? 
 
-1 saatten az: 0
-1-2 saat arası: 1
-2-3 saat arası: 2
-3-4 saat arası: 3
-4-5 saat arası: 4
-5 saatten fazla: 5
+7 saatten az: 0
+7-14 saat arası: 1
+14-21 saat arası: 2
+21-28 saat arası: 3
+28-35 saat arası: 4
+35 saatten fazla: 5
 
 
 Ders çalışma sırasında erteleme yapıyorum.

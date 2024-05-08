@@ -2,7 +2,7 @@
 const SayfaValue = document.getElementById("Sayfa").value
 
 if (SayfaValue == 1) {
-    localStorage.clear()
+    localStorage.removeItem("inputValue")
 }
 
 
@@ -58,7 +58,7 @@ function onClicked(input) {
 
 
 function resetLocalStorage() {
-    localStorage.clear();
+    localStorage.removeItem("inputValue")
 }
 
 
@@ -137,6 +137,32 @@ function Sonuc_Fonksiyonu() {
         }
 
         Puan.innerHTML = "Puanınız: " + Sonuc_Puanı
+
+        let Ortalama_Sonuc_Puanı = Number(localStorage.getItem("Ortalama_Sonuc_Puanı"))
+        let Oynayan_Sayısı = Number(localStorage.getItem("Oynayan_Sayısı"))
+
+        if (Ortalama_Sonuc_Puanı) {
+            localStorage.setItem("Ortalama_Sonuc_Puanı", Ortalama_Sonuc_Puanı + Sonuc_Puanı)
+        } else {
+            localStorage.setItem("Ortalama_Sonuc_Puanı",Sonuc_Puanı)
+        }
+
+
+
+        if (Oynayan_Sayısı) {
+            localStorage.setItem("Oynayan_Sayısı", 1 + Oynayan_Sayısı)
+        } else {
+            localStorage.setItem("Oynayan_Sayısı",1)
+        }
+
+        console.log(localStorage.getItem("Ortalama_Sonuc_Puanı"))
+        console.log(localStorage.getItem("Oynayan_Sayısı"))
+
+        const Ortalama_Puan = Math.round( Number(localStorage.getItem("Ortalama_Sonuc_Puanı")) / Number(localStorage.getItem("Oynayan_Sayısı")) )
+    
+        let Ortalama_Puan_Kısmı = document.getElementById("Ortalama_Puan")
+
+        Ortalama_Puan_Kısmı.innerHTML = "Ortalama Puan: " + Ortalama_Puan
 
 }
 
