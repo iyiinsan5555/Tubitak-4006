@@ -26,18 +26,11 @@ function onClicked(input) {
 
     const currentPage = Number(document.getElementById("Sayfa").value)
     
-    if (currentPage === 7) { //Son Sayfa
-
-        window.location.replace("sonuc.html")
-        return
-    }
 
     const pageUrl = (currentPage + 1) + ".html"
     
     console.log(inputValue, currentPage)
     console.log(pageUrl)
-
-    window.location.replace(pageUrl)
 
     if (localStorage.getItem("inputValue")) {
 
@@ -51,6 +44,14 @@ function onClicked(input) {
         localStorage.setItem("inputValue", inputValue)
 
     }
+
+    if (currentPage === 7) { //Son Sayfa
+
+        window.location.replace("sonuc.html")
+        return
+    }
+
+    window.location.replace(pageUrl)
     
     
     console.log("stored value = " + localStorage.getItem("inputValue"))
@@ -84,51 +85,52 @@ function Sonuc_Fonksiyonu() {
     
     let Sonuc_Sifati = null
 
-    if (Sonuc_Puanı <= 28.0 && Sonuc_Puanı > 25.2) {
-        console.log("28 ile 25,2");
-        Sonuc_Sifati = document.getElementById("28 ile 25,2")
-    } else if (Sonuc_Puanı <= 25.2 && Sonuc_Puanı > 22.4) {
-        console.log("25,2 ile 22,4");
-        Sonuc_Sifati = document.getElementById("25,2 ile 22,4")
-    } else if (Sonuc_Puanı <= 22.4 && Sonuc_Puanı > 19.6) {
-        console.log("22,4 ile 19,6");
-        Sonuc_Sifati = document.getElementById("22,4 ile 19,6")
-    } else if (Sonuc_Puanı <= 19.6 && Sonuc_Puanı > 16.8) {
-        console.log("19,6 ile 16,8");
-        Sonuc_Sifati = document.getElementById("19,6 ile 16,8")
-    } else if (Sonuc_Puanı <= 16.8 && Sonuc_Puanı > 14) {
-        console.log("16,8 ile 14");
-        Sonuc_Sifati = document.getElementById("16,8 ile 14,0")
-    } else if (Sonuc_Puanı <= 14.0 && Sonuc_Puanı > 11.2) {
-        console.log("14,0 ile 11,2");
-        Sonuc_Sifati = document.getElementById("14,0 ile 11,2")
-    } else if (Sonuc_Puanı <= 11.2 && Sonuc_Puanı > 8.4) {
-        console.log("11,2 ile 8,4");
-        Sonuc_Sifati = document.getElementById("11,2 ile 8,4")
-    } else if (Sonuc_Puanı <= 8.4 && Sonuc_Puanı > 5.6) {
-        console.log("8,4 ile 5,6");
-        Sonuc_Sifati = document.getElementById("8,4 ile 5,6")
-    } else if (Sonuc_Puanı <= 5.6 && Sonuc_Puanı > 2.8) {
-        console.log("5,6 ile 2,8");
-        Sonuc_Sifati = document.getElementById("5,6 ile 2,8")
-    } else if (Sonuc_Puanı <= 2.8 && Sonuc_Puanı >= 0) {
-        console.log("2,8 ile 0");
-        Sonuc_Sifati = document.getElementById("2,8 ile 0")
-    } else {
-        console.log("Sonuc_Puanı is out of the specified ranges.");
-        console.log(Sonuc_Puanı)
-    }
+        if (Sonuc_Puanı <= 29.0 && Sonuc_Puanı > 26.1) {
+            console.log("29 ile 26,1");
+            Sonuc_Sifati = document.getElementById("29 ile 26,1");
+        } else if (Sonuc_Puanı <= 26.1 && Sonuc_Puanı > 23.2) {
+            console.log("26,1 ile 23,2");
+            Sonuc_Sifati = document.getElementById("26,1 ile 23,2");
+        } else if (Sonuc_Puanı <= 23.2 && Sonuc_Puanı > 20.3) {
+            console.log("23,2 ile 20,3");
+            Sonuc_Sifati = document.getElementById("23,2 ile 20,3");
+        } else if (Sonuc_Puanı <= 20.3 && Sonuc_Puanı > 17.4) {
+            console.log("20,3 ile 17,4");
+            Sonuc_Sifati = document.getElementById("20,3 ile 17,4");
+        } else if (Sonuc_Puanı <= 17.4 && Sonuc_Puanı > 14.5) {
+            console.log("17,4 ile 14,5");
+            Sonuc_Sifati = document.getElementById("17,4 ile 14,5");
+        } else if (Sonuc_Puanı <= 14.5 && Sonuc_Puanı > 11.6) {
+            console.log("14,5 ile 11,6");
+            Sonuc_Sifati = document.getElementById("14,5 ile 11,6");
+        } else if (Sonuc_Puanı <= 11.6 && Sonuc_Puanı > 8.7) {
+            console.log("11,6 ile 8,7");
+            Sonuc_Sifati = document.getElementById("11,6 ile 8,7");
+        } else if (Sonuc_Puanı <= 8.7 && Sonuc_Puanı > 5.8) {
+            console.log("8,7 ile 5,8");
+            Sonuc_Sifati = document.getElementById("8,7 ile 5,8");
+        } else if (Sonuc_Puanı <= 5.8 && Sonuc_Puanı > 2.9) {
+            console.log("5,8 ile 2,9");
+            Sonuc_Sifati = document.getElementById("5,8 ile 2,9");
+        } else if (Sonuc_Puanı <= 2.9 && Sonuc_Puanı >= 0) {
+            console.log("2,9 ile 0");
+            Sonuc_Sifati = document.getElementById("2,9 ile 0");
+        } else {
+            console.log("Sonuc_Puanı is out of the specified ranges.");
+            console.log(Sonuc_Puanı);
+        }
 
-        //28 ile 25,2
-        //25,2 ile 22,4
-        //22,4 ile 19,6
-        //19,6 ile 16,8
-        //16,8 ile 14
-        //14 ile 11,2
-        //11,2 ile 8,4
-        //8,4 ile 5,6
-        //5,6 ile 2,8
-        //2,8 ile 0
+
+        //"29 ile 26,1"
+        //"26,1 ile 23,2"
+        //"23,2 ile 20,3"
+        //"20,3 ile 17,4"
+        //"17,4 ile 14,5"
+        //"14,5 ile 11,6"
+        //"11,6 ile 8,7"
+        //"8,7 ile 5,8"
+        //"5,8 ile 2,9"
+        //"2,9 ile 0"
 
 
         if (Sonuc_Sifati) {
